@@ -37,7 +37,7 @@ Be direct and educational. Format with markdown headers and code examples where 
         const response = await axios.post(
             'https://api.groq.com/openai/v1/chat/completions',
             {
-                model: 'llama-3.1-8b-instant',
+                model: 'llama3-8b-8192',
                 messages: [
                     { role: 'system', content: 'You are a senior software engineer providing concise, educational code reviews for DSA solutions.' },
                     { role: 'user', content: prompt }
